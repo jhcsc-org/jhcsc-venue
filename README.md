@@ -2062,7 +2062,7 @@ CREATE TRIGGER trg_sync_user_metadata
 EXECUTE PROCEDURE sync_user_metadata();
 ```
 
-## 📊 Mermaid Diagrams
+## Mermaid Diagrams
 
 ### Booking Workflow
 
@@ -2105,17 +2105,11 @@ graph LR
     VENUES -->|audited| AUDIT_LOGS
 ```
 
-## 🗂Additional Documentation
-
 ### Environment Setup
-
-Ensure you have the following prerequisites installed:
 
 - **Node.js**: Version 18.x or higher
 - **Package Manager**: `npm` or `yarn`
 - **Supabase Account**: Set up a Supabase project
-
-### Installation Steps
 
 1. **Clone the Repository**:
 
@@ -2152,10 +2146,6 @@ Ensure you have the following prerequisites installed:
    # or
    yarn dev
    ```
-
-### Running Tests
-
-_(Assuming test scripts are set up)_
 
 ```bash
 npm run test
@@ -2409,7 +2399,7 @@ yarn test
   }
   ```
 
-## 🔍 Search and Filtering
+## Search and Filtering
 
 ### Venue Search
 
@@ -2495,7 +2485,7 @@ graph TD
   }
   ```
 
-## 🔍 Search and Filtering
+## Search and Filtering
 
 ### Venue Search
 
